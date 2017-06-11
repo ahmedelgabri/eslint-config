@@ -1,0 +1,43 @@
+{
+  "name": "@ahmedelgabri/eslint-config",
+  "version": "0.0.4",
+  "main": "index.js",
+  "author": "Ahmed El Gabri <ahmed@gabri.me> (https://gabri.me/)",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-restricted-globals": "^0.1.1"
+  },
+  "devDependencies": {
+    "@ahmedelgabri/eslint-config": "*",
+    "eslint": "^3.19.0",
+    "eslint-config-prettier": "^2.1.1",
+    "eslint-import-resolver-webpack": "^0.8.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jest": "^20.0.3",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-prettier": "^2.1.1",
+    "eslint-plugin-react": "^7.0.1",
+    "prettier": "^1.4.4",
+    "webpack": "^2.6.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3.19.0",
+    "eslint-config-prettier": ">=2.1.1",
+    "eslint-import-resolver-webpack": ">=0.8.1",
+    "eslint-plugin-import": ">=2.3.0",
+    "eslint-plugin-jest": ">=20.0.3",
+    "eslint-plugin-jsx-a11y": ">=5.0.3",
+    "eslint-plugin-prettier": ">=2.1.1",
+    "eslint-plugin-react": ">=7.0.1",
+    "prettier": ">=1.4.4",
+    "webpack": ">=2.6.1"
+  },
+  "bugs": {
+    "url": "https://github.com/ahmedelgabri/eslint-config/issues"
+  },
+  "homepage": "https://github.com/ahmedelgabri/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmedelgabri/eslint-config.git"
+  }
+}
