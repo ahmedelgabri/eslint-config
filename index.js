@@ -1,14 +1,14 @@
 module.exports = {
   extends: [
-    './best-practices',
-    './errors',
-    './style',
-    './es6',
-    './node',
-    './react',
-    './react-a11y',
-    './imports',
-    './prettier',
+    './config/best-practices',
+    './config/errors',
+    './config/style',
+    './config/es6',
+    './config/node',
+    './config/react',
+    './config/react-a11y',
+    './config/imports',
+    './config/prettier',
   ].map(require.resolve),
   parserOptions: {
     ecmaVersion: 2017,
