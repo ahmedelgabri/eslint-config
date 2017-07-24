@@ -1,2 +1,4 @@
 yarn.lock
 .gitignore
+node_modules
+tags
