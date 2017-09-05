@@ -1,12 +1,13 @@
 {
   "name": "@ahmedelgabri/eslint-config",
-  "version": "2.0.0-beta.2",
+  "version": "2.0.0-beta.3",
   "main": "index.js",
   "author": "Ahmed El Gabri <ahmed@gabri.me> (https://gabri.me/)",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "eslint-config-prettier": "^2.4.0",
     "eslint-config-standard-react": "^5.0.0",
+    "eslint-import-resolver-webpack": "^0.8.3",
     "eslint-plugin-flowtype": "^2.35.1",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
@@ -14,21 +15,14 @@
     "eslint-plugin-prettier": "^2.2.0",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
-    "prettier": "^1.6.1",
-    "standard": "^10.0.3",
     "webpack": "^3.5.5"
   },
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "prettier": "^1.6.1"
+  },
   "peerDependencies": {
-    "eslint-config-prettier": ">=2.4.0",
-    "eslint-config-standard-react": ">=5.0.0",
-    "eslint-plugin-flowtype": ">=2.35.1",
-    "eslint-plugin-import": ">=2.7.0",
-    "eslint-plugin-jsx-a11y": ">=6.0.2",
-    "eslint-plugin-node": ">=5.1.1",
-    "eslint-plugin-prettier": ">=2.2.0",
-    "eslint-plugin-promise": ">=3.5.0",
-    "eslint-plugin-standard": ">=3.0.1",
-    "standard": ">=10.0.3",
+    "eslint": ">=4",
     "prettier": ">=1.4.4",
     "webpack": ">=2.6.1"
   },
