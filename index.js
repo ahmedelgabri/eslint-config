@@ -1,15 +1,10 @@
 module.exports = {
   extends: [
-    './config/best-practices',
-    './config/errors',
-    './config/style',
-    './config/es6',
-    './config/node',
-    './config/react',
-    './config/react-a11y',
-    './config/imports',
-    './config/prettier',
-  ].map(require.resolve),
+    'standard',
+    'standard-react',
+    ...['./config/react-a11y', './config/prettier'].map(require.resolve),
+  ],
+  plugins: ['flowtype', 'standard'],
   parserOptions: {
     ecmaVersion: 2017,
     sourceType: 'module',
