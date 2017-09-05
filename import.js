@@ -1,4 +1,5 @@
 module.exports = {
+  // Import plugin installed with standard
   plugins: ['import'],
 
   env: {
