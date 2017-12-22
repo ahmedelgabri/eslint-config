@@ -19,7 +19,7 @@ Extra
 
 ```
 {
-  "extends": ["@ahmedelgabri", "@ahmedelgabri/prettier", "@ahmedelgabri/flow", "@ahmedelgabri/import"]
+  "extends": ["@ahmedelgabri", "@ahmedelgabri/eslint-config/<config name>"]
 }
 ```
 
