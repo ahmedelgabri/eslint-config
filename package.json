@@ -1,6 +1,6 @@
 {
   "name": "@ahmedelgabri/eslint-config",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "main": "index.js",
   "author": "Ahmed El Gabri <ahmed@gabri.me> (https://gabri.me/)",
   "license": "MIT",
