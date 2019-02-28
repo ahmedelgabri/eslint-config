@@ -1,10 +1,10 @@
 {
   "name": "@ahmedelgabri/eslint-config",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "main": "index.js",
   "author": "Ahmed El Gabri <ahmed@gabri.me> (https://gabri.me/)",
   "license": "MIT",
-  "files" : [
+  "files": [
     "index.js",
     "prettier.js",
     "flow.js",
