@@ -24,7 +24,7 @@
     "eslint-plugin-standard": "^4.0.0"
   },
   "devDependencies": {
-    "@ahmedelgabri/prettier-config": "^1.0.0",
+    "@ahmedelgabri/prettier-config": "1.0.0",
     "eslint": "5.16.0",
     "prettier": "1.17.0",
     "webpack": "4.30.0"
