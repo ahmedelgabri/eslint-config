@@ -66,6 +66,7 @@ module.exports = {
     // paths are treated both as absolute paths, and relative to process.cwd()
     'import/no-extraneous-dependencies': [
       'error',
+      {packageDir: './'},
       {
         devDependencies: [
           'test/**', // tape, common npm pattern
