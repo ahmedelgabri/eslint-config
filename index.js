@@ -1,11 +1,14 @@
 module.exports = {
-  extends: ['standard', 'standard-react', require.resolve('./react-a11y')],
+  extends: ['eslint:recommended', require.resolve('./prettier')],
   plugins: ['standard'],
   parserOptions: {
-    ecmaVersion: 2017,
     sourceType: 'module',
+    ecmaVersion: '2018',
   },
-  rules: {
-    strict: 'error',
+  env: {
+    es6: true,
+    browser: true,
+    jest: true,
+    node: true,
   },
 }

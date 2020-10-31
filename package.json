@@ -9,36 +9,37 @@
   "license": "MIT",
   "files": [
     "index.js",
+    "full.js",
     "prettier.js",
-    "flow.js",
     "import.js",
-    "react-a11y.js"
+    "react.js",
+    "typescript.js"
   ],
   "dependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-config-standard-react": "^9.2.0",
-    "eslint-import-resolver-webpack": "^0.12.1",
-    "eslint-plugin-flowtype": "^5.2.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "@typescript-eslint/eslint-plugin": "^4.6.0",
+    "@typescript-eslint/parser": "^4.6.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-import-resolver-webpack": "^0.13.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^4.0.8",
-    "eslint-plugin-standard": "^4.0.0",
-    "webpack": "^4.42.0"
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-standard": "^4.0.2",
+    "webpack": "^5.3.2"
   },
   "devDependencies": {
     "@ahmedelgabri/prettier-config": "^5.0.0",
-    "eslint": "^7.6.0",
-    "np": "^6.3.2",
-    "prettier": "^2.0.5"
+    "eslint": "^7.12.1",
+    "np": "^7.0.0",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.5"
   },
   "peerDependencies": {
-    "eslint": ">=5"
+    "eslint": ">=5",
+    "typescript": ">=4.0.5"
   },
   "bugs": {
     "url": "https://github.com/ahmedelgabri/eslint-config/issues"

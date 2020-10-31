@@ -14,8 +14,7 @@ $ npm i -D @ahmedelgabri/eslint-config
 }
 ```
 
-Extra
----
+## Extra
 
 ```
 {
