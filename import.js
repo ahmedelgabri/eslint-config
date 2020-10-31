@@ -13,10 +13,10 @@ module.exports = {
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.mjs', '.js', '.json'],
+        extensions: ['.mjs', '.js', '.json', '.ts', '.tsx'],
       },
     },
-    'import/extensions': ['.js', '.mjs', '.jsx'],
+    'import/extensions': ['.js', '.mjs', '.jsx', '.ts', '.tsx'],
     'import/core-modules': [],
     'import/ignore': [
       'node_modules',
@@ -141,6 +141,8 @@ module.exports = {
         js: 'never',
         mjs: 'never',
         jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
       },
     ],
 
