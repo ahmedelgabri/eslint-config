@@ -1,6 +1,6 @@
 {
   "name": "@ahmedelgabri/eslint-config",
-  "version": "11.0.0",
+  "version": "11.0.1",
   "main": "index.js",
   "author": "Ahmed El Gabri <ahmed@gabri.me> (https://gabri.me/)",
   "scripts": {
