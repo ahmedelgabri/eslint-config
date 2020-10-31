@@ -5,7 +5,7 @@ My personal set of eslint rules
 ## Install
 
 ```sh
-$ npm i -D @ahmedelgabri/eslint-config
+npm i -D eslint @ahmedelgabri/eslint-config
 ```
 
 ```json
