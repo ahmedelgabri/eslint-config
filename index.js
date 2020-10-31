@@ -1,6 +1,5 @@
 module.exports = {
   extends: ['eslint:recommended', require.resolve('./prettier')],
-  plugins: ['standard'],
   parserOptions: {
     sourceType: 'module',
     ecmaVersion: '2018',
